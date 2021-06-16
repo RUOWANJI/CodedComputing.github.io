@@ -3,7 +3,7 @@
 - Matrix vector multiplication
 - Matrix matrix multiplication
 
-1.Introduction
+# Introduction
 Coded distributed matrix multiplication for straggler mitigation has received a lot of attention recently. In coded distributed matrix multiplication, a master node wishes to compute the matrix product AB with the help of several worker nodes.
 The main idea %in coded distributed matrix multiplication 
 is to partition A and B into several smaller submatrices, encode the submatrices using a carefully constructed code into a redundant set of submatrices, and transmit the encoded submatrices to different worker nodes. 
