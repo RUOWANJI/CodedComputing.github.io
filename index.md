@@ -2,10 +2,11 @@
 # Large-Scale Coded Computing
 - Matrix vector multiplication
 - Matrix matrix multiplication
+
 1.Introduction
-Coded distributed matrix multiplication for straggler mitigation has received a lot of attention recently. In coded distributed matrix multiplication, a master node wishes to compute the matrix product $\mb{A}^{\mathsf T} \mb{B}$ with the help of several worker nodes.
+Coded distributed matrix multiplication for straggler mitigation has received a lot of attention recently. In coded distributed matrix multiplication, a master node wishes to compute the matrix product AB with the help of several worker nodes.
 The main idea %in coded distributed matrix multiplication 
-is to partition $\mb{A}$ and $\mb{B}$ into several smaller submatrices, encode the submatrices using a carefully constructed code into a redundant set of submatrices, and transmit the encoded submatrices to different worker nodes. 
+is to partition A and B into several smaller submatrices, encode the submatrices using a carefully constructed code into a redundant set of submatrices, and transmit the encoded submatrices to different worker nodes. 
 The worker nodes compute the smaller matrix products and return their computation to the master node which combines the results from each worker node to produce the final result.
 The code is designed such that the final result can be recovered from a subset of the submatrix products, i.e., the system is resilient to straggling workers which do not return their computation in time.
 
