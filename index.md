@@ -1,6 +1,10 @@
 
 # Large-Scale Coded Computing
-## Header 2
+- Matrix vector multiplication
+- Matrix matrix multiplication
+## Algorithem
+- Polynomial coded computing
+- RKRP coded computing
 ### Header 3
 
 - Bulleted
